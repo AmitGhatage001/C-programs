@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+int add(int a,int b){
+
+    return a + b;
+}
+
 int main(){
     int a=10;
     int b=25;
@@ -9,7 +14,3 @@ int main(){
     printf("%d \n",ans);
 }
 
-int add(int a,int b){
-
-    return a + b;
-}
